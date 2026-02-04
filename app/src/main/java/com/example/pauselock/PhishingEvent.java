@@ -4,7 +4,7 @@ import androidx.room.Entity;
 import androidx.room.PrimaryKey;
 
 @Entity(tableName = "phishing_logs")
-public class PhisingEvent {
+public class PhishingEvent {
     @PrimaryKey(autoGenerate = true)
     public int id;
 
