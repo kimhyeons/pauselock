@@ -11,7 +11,7 @@ import androidx.room.RoomDatabase;
 public abstract class AppDatabase extends RoomDatabase {
 
     //DAO 연결
-    public abstract PhisingDao phisingDao();
+    public abstract PhishingDao phisingDao();
 
     private static volatile AppDatabase INSTANCE;
 

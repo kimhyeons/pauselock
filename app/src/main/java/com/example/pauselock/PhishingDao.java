@@ -6,7 +6,7 @@ import androidx.room.Query;
 import java.util.List;
 
 @Dao
-public interface PhisingDao {
+public interface PhishingDao {
     @Insert
     void insert(PhishingEvent event);
 
